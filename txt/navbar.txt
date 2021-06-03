@@ -1,0 +1,10 @@
+For version 1.0
+Code:
+<div class="navbar">
+        <nav>
+            <ui class="navli"><a class="navlink" href="/">Home</a></ui>
+            <ui class="navli"><a class="navlink" href="/price.html">Price</a></ui>
+            <ui class="navli"><a class="navlink" href="/signin.html">Sign In</a></ui>
+            <ui class="navli"><a class="navlink" href="/signout.html">Sign Up</a></ui>
+        </nav>
+</div>
