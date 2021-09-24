@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.fs-header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.fs-navbar {
+    background-color: rgb(34, 36, 33);
+    text-align: left;
+    width: -webkit-fill-available;
+    transition: .2s;
+    margin-bottom: 35px;
+}
+
+.fs-navbar:hover {
+    background-color: darkblue;
+    transition: .2s;
+}
+
+.fs-navlink {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.fs-navlink:link {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.fs-navlink:hover {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+}
+
+.fs-navlink:active {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+}
+
+.fs-navlink:visited {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.fs-navli {
+    text-decoration: none;
+    text-decoration-style: none;
+    margin-left: 5px;
+}
+
+.fs-bib {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;   
+}
+
+p {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;   
+}
+
+span {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.fs-button {
+    text-align: center;
+    border: none;
+    padding: 10px;
+    width: -webkit-fill-available;;
+    margin: 11px;
+    color: white;
+    background-color: blue;
+    transition: .2s;
+    border-radius: 5px;
+    margin-left: 36%;
+    margin-right: 36%;
+}
+
+.fs-button:hover {
+    background-color: red;
+    border-radius: 14px;
+    transition: .5s;
+}
+
+.fs-button:active {
+    background-color: red;
+    border-radius: 24px;
+    transition: .1s;
+}
+
+.fs-navbarprol {
+    text-align: center;
+    display: flex;
+}
+
+.fs-boxli {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    padding: 37px;
+    font-family: 'Roboto', sans-serif;
+    width: -webkit-fill-available;
+    margin-bottom: -10px;
+}
+
+.fs-footer {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}

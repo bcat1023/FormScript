@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;   
+}
+
+.header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.navbar {
+    background-color: rgb(34, 36, 33);
+    text-align: left;
+    width: -webkit-fill-available;
+    transition: .2s;
+    margin-bottom: 35px;
+}
+
+.navbar:hover {
+    background-color: rgb(19, 18, 20);
+}
+
+.navlink {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.navlink:link {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.navlink:hover {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+}
+
+.navlink:active {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: gray;
+    margin-left: 5px;
+}
+
+.navlink:visited {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.navli {
+    text-decoration: none;
+    text-decoration-style: none;
+    margin-left: 5px;
+}
+
+.bib {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;   
+    margin: 15%;
+    padding: 5px;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    border-style: groove;
+}
+
+.button {
+    text-align: center;
+    border: none;
+    padding: 10px;
+    width: -webkit-fill-available;
+    margin: 11px;
+    color: white;
+    background-color: black;
+    transition: .2s;
+    height: 50px;
+    border-radius: 0;
+    margin-left: 36%;
+    margin-right: 36%;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+.button:active {
+    background-color: black;
+    color: white;
+    transition: .1s;
+}
+
+.navbarprol {
+    text-align: center;
+    display: flex;
+}
+
+.boxli {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    padding: 37px;
+    font-family: 'Roboto', sans-serif;
+    width: -webkit-fill-available;
+    margin-bottom: -10px;
+}
+
+.footer {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
